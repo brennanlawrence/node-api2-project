@@ -9,4 +9,4 @@ server.get("/", (req, res) => {
   res.status(200).json({ message: "Success, welcome to the app!" });
 });
 
-server.listen(5000, () => console.log("Server running on port 5000"));
+server.listen(post, () => console.log(`Server running on port: ${port}`));
